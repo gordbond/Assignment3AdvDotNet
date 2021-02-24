@@ -33,7 +33,7 @@ namespace Assignment3AdvDotNet
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Assignment3AdvDotNet", Version = "v1" });
             });
-            services.AddDbContext<MedicalDataContext>(opt => opt.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=MedicalDB;Integrated Security=True"));
+            services.AddDbContext<MedicalDataContext>(opt => opt.UseSqlServer("Data Source=gordbond2017\\SQLEXPRESS;Initial Catalog=MedicalDB;Integrated Security=True"));
 
         }
 

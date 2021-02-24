@@ -34,5 +34,8 @@ namespace Assignment3AdvDotNet.Models
         //Provider DBset - used to create queries for instances of Provider
         public DbSet<Provider> Providers { get; set; }
 
+        //Provider DBset - used to create queries for instances of Provider
+        public DbSet<Assignment3AdvDotNet.Models.Organization> Organization { get; set; }
+
     }
 }
